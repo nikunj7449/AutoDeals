@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>AutoDeals - Home</title>
+    <link rel="stylesheet" href="CSS/homepage.css">
 </head>
 <body>
-    
+    <header class="navbar">
+        <div class="logo">
+            <!-- <img src="AutoDeals (1).png" alt="AutoDeals Logo" class="logo-image"> -->
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#buy">Buy a Car</a></li>
+                <li><a href="#sell">Sell Your Car</a></li>
+                <li><a href="#valuation">Car Valuation</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><button id="logoutBtn" class="logout-btn"><a href="login.html">Logout</a></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to AutoDeals</h1>
+            <p>Buy or Sell Cars with Ease!</p>
+            <div class="cta-buttons">
+                <a href="#buy" class="btn">Explore Cars</a>
+                <a href="#sell" class="btn">Sell Your Car</a>
+            </div>
+        </section>
+
+        <section id="buy" class="section">
+            <h2>Buy a Car</h2>
+            <p>Find your dream car from a wide range of options.</p>
+            <!-- Add dynamic car listing here -->
+        </section>
+
+        <section id="sell" class="section">
+            <h2>Sell Your Car</h2>
+            <p>Get the best value for your car in minutes.</p>
+            <!-- Add form or process description here -->
+        </section>
+
+        <section id="valuation" class="section">
+            <h2>Car Valuation</h2>
+            <p>Know your car's worth instantly.</p>
+            <!-- Add valuation tool or instructions here -->
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Learn more about AutoDeals and our mission to make car trading seamless.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AutoDeals. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // document.getElementById('logoutBtn').addEventListener('click', function() {
+        //     alert('You have been logged out!');
+        //     window.location.href = 'index.html';
+        // });
+    </script>
 </body>
 </html>
